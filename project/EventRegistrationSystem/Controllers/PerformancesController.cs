@@ -49,8 +49,8 @@ namespace EventRegistrationSystem.Controllers
         // GET: Performances/Create
         public IActionResult Create()
         {
-            ViewData["ArtistId"] = new SelectList(_context.Artist, "Id", "Id");
-            ViewData["EventId"] = new SelectList(_context.Event, "Id", "Id");
+            ViewData["ArtistId"] = new SelectList(_context.Artist, "Id", "Name");
+            ViewData["EventId"] = new SelectList(_context.Event, "Id", "Name");
             return View();
         }
 
@@ -67,8 +67,8 @@ namespace EventRegistrationSystem.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ArtistId"] = new SelectList(_context.Artist, "Id", "Id", performance.ArtistId);
-            ViewData["EventId"] = new SelectList(_context.Event, "Id", "Id", performance.EventId);
+            ViewData["ArtistId"] = new SelectList(_context.Artist, "Id", "Name", performance);
+            ViewData["EventId"] = new SelectList(_context.Event, "Id", "Name", performance);
             return View(performance);
         }
 
@@ -85,8 +85,8 @@ namespace EventRegistrationSystem.Controllers
             {
                 return NotFound();
             }
-            ViewData["ArtistId"] = new SelectList(_context.Artist, "Id", "Id", performance.ArtistId);
-            ViewData["EventId"] = new SelectList(_context.Event, "Id", "Id", performance.EventId);
+            ViewData["ArtistId"] = new SelectList(_context.Artist, "Id", "Name", performance);
+            ViewData["EventId"] = new SelectList(_context.Event, "Id", "Name", performance);
             return View(performance);
         }
 
@@ -122,8 +122,8 @@ namespace EventRegistrationSystem.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ArtistId"] = new SelectList(_context.Artist, "Id", "Id", performance.ArtistId);
-            ViewData["EventId"] = new SelectList(_context.Event, "Id", "Id", performance.EventId);
+            ViewData["ArtistId"] = new SelectList(_context.Artist, "Id", "Name", performance);
+            ViewData["EventId"] = new SelectList(_context.Event, "Id", "Name", performance);
             return View(performance);
         }
 
