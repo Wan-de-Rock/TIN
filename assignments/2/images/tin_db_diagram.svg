@@ -1,0 +1,240 @@
+<svg width="740" height="160" xmlns="http://www.w3.org/2000/svg">
+ <desc>{"leftTopX": 6530, "leftTopY": 6900, "rightBottomX": 7270, "rightBottomY": 7070}</desc>
+
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_5">
+   <g id="svg_6" class="reference">
+    <polyline id="svg_7" stroke="#000000" points="176.5,81.5 294.5,81.5 " fill="none"/>
+    <g id="svg_8" class="cardinality">
+     <line id="svg_9" y2="75.5" y1="81.5" x2="284.5" x1="269.5" stroke="#000000"/>
+     <line id="svg_10" y2="87.5" y1="81.5" x2="284.5" x1="269.5" stroke="#000000"/>
+     <g id="svg_11">
+      <circle id="svg_12" cx="269.5" cy="81.5" stroke="#000000" r="3.5" fill="white"/>
+     </g>
+    </g>
+    <g id="svg_13" class="mandatory">
+     <line id="svg_14" y2="87.5" y1="75.5" x2="232.5" x1="232.5" stroke="#000000"/>
+    </g>
+   </g>
+   <g id="svg_15" class="reference">
+    <polyline id="svg_16" stroke="#000000" points="586.5,82.5 436.5,82.5 " fill="none"/>
+    <g id="svg_17" class="cardinality">
+     <line id="svg_18" y2="76.5" y1="82.5" x2="479.5" x1="494.5" stroke="#000000"/>
+     <line id="svg_19" y2="88.5" y1="82.5" x2="479.5" x1="494.5" stroke="#000000"/>
+     <g id="svg_20">
+      <circle id="svg_21" cx="494.5" cy="82.5" stroke="#000000" r="3.5" fill="white"/>
+     </g>
+    </g>
+    <g id="svg_22" class="mandatory">
+     <line id="svg_23" y2="88.5" y1="76.5" x2="538.5" x1="538.5" stroke="#000000"/>
+    </g>
+   </g>
+   <g id="svg_24" class="table">
+    <g id="svg_25">
+     <rect id="svg_26" x="20.5" y="35.5" width="197" height="20" fill="#f0f0f0"/>
+    </g>
+    <g id="svg_27">
+     <text id="svg_28" y="49.63965" x="120" text-anchor="middle" font-weight="700" font-size="12" font-family="arial, sans-serif" fill="black">Artist</text>
+    </g>
+    <g id="svg_29">
+     <rect id="svg_30" x="20.5" y="55.5" width="197" height="82" fill="#ffffff"/>
+     <g id="svg_31">
+      <g id="svg_32">
+       <text id="svg_33" y="69.36328" x="25.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">ID</text>
+      </g>
+      <g id="svg_34">
+       <text id="svg_35" y="83.36328" x="25.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">Name</text>
+      </g>
+      <g id="svg_36">
+       <text id="svg_37" y="97.36328" x="25.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">NumberOfMembers</text>
+      </g>
+     </g>
+     <g id="svg_38">
+      <g id="svg_39">
+       <text id="svg_40" y="69.36328" x="142.75" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">int</text>
+      </g>
+      <g id="svg_41">
+       <text id="svg_42" y="83.36328" x="142.75" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">nchar(30)</text>
+      </g>
+      <g id="svg_43">
+       <text id="svg_44" y="97.36328" x="142.75" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">int</text>
+      </g>
+     </g>
+     <g id="svg_45">
+      <g id="svg_46">
+       <text id="svg_47" y="69.36328" x="198.25" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">PK</text>
+      </g>
+      <g id="svg_48">
+       <text id="svg_49" y="83.36328" x="198.25" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black"/>
+      </g>
+      <g id="svg_50">
+       <text id="svg_51" y="97.36328" x="198.25" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black"/>
+      </g>
+     </g>
+    </g>
+    <polyline id="svg_52" stroke="#000000" points="20.5,55.5 20.5,35.5 217.5,35.5 217.5,55.5 20.5,55.5 20.5,137.5 217.5,137.5 217.5,55.5 " fill="none"/>
+   </g>
+   <g id="svg_53" class="table">
+    <g id="svg_54">
+     <rect id="svg_55" x="284.5" y="20.5" width="195" height="20" fill="#f0f0f0"/>
+    </g>
+    <g id="svg_56">
+     <text id="svg_57" y="34.63965" x="383" text-anchor="middle" font-weight="700" font-size="12" font-family="arial, sans-serif" fill="black">Action</text>
+    </g>
+    <g id="svg_58">
+     <rect id="svg_59" x="284.5" y="40.5" width="195" height="110" fill="#ffffff"/>
+     <g id="svg_60">
+      <g id="svg_61">
+       <text id="svg_62" y="54.36328" x="289.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">ID</text>
+      </g>
+      <g id="svg_63">
+       <text id="svg_64" y="68.36328" x="289.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">QueuePosition</text>
+      </g>
+      <g id="svg_65">
+       <text id="svg_66" y="82.36328" x="289.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">PerformanceTime</text>
+      </g>
+      <g id="svg_67">
+       <text id="svg_68" y="96.36328" x="289.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">Artist_ID</text>
+      </g>
+      <g id="svg_69">
+       <text id="svg_70" y="110.36328" x="289.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">Event_ID</text>
+      </g>
+     </g>
+     <g id="svg_71">
+      <g id="svg_72">
+       <text id="svg_73" y="54.36328" x="433.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">int</text>
+      </g>
+      <g id="svg_74">
+       <text id="svg_75" y="68.36328" x="433.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">int</text>
+      </g>
+      <g id="svg_76">
+       <text id="svg_77" y="82.36328" x="433.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">time</text>
+      </g>
+      <g id="svg_78">
+       <text id="svg_79" y="96.36328" x="433.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">int</text>
+      </g>
+      <g id="svg_80">
+       <text id="svg_81" y="110.36328" x="433.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">int</text>
+      </g>
+     </g>
+     <g id="svg_82">
+      <g id="svg_83">
+       <text id="svg_84" y="54.36328" x="460.25" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">PK</text>
+      </g>
+      <g id="svg_85">
+       <text id="svg_86" y="68.36328" x="460.25" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black"/>
+      </g>
+      <g id="svg_87">
+       <text id="svg_88" y="82.36328" x="460.25" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black"/>
+      </g>
+      <g id="svg_89">
+       <text id="svg_90" y="96.36328" x="460.25" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">FK</text>
+      </g>
+      <g id="svg_91">
+       <text id="svg_92" y="110.36328" x="460.25" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">FK</text>
+      </g>
+     </g>
+    </g>
+    <polyline id="svg_93" stroke="#000000" points="284.5,40.5 284.5,20.5 479.5,20.5 479.5,40.5 284.5,40.5 284.5,150.5 479.5,150.5 479.5,40.5 " fill="none"/>
+   </g>
+   <g id="svg_94" class="table">
+    <g id="svg_95">
+     <rect id="svg_96" x="553.5" y="32.5" width="167" height="20" fill="#f0f0f0"/>
+    </g>
+    <g id="svg_97">
+     <text id="svg_98" y="46.63965" x="638" text-anchor="middle" font-weight="700" font-size="12" font-family="arial, sans-serif" fill="black">Event</text>
+    </g>
+    <g id="svg_99">
+     <rect id="svg_100" x="553.5" y="52.5" width="167" height="82" fill="#ffffff"/>
+     <g id="svg_101">
+      <g id="svg_102">
+       <text id="svg_103" y="66.36328" x="558.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">ID</text>
+      </g>
+      <g id="svg_104">
+       <text id="svg_105" y="80.36328" x="558.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">Name</text>
+      </g>
+      <g id="svg_106">
+       <text id="svg_107" y="94.36328" x="558.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">Topic</text>
+      </g>
+      <g id="svg_108">
+       <text id="svg_109" y="108.36328" x="558.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">Date</text>
+      </g>
+      <g id="svg_110">
+       <text id="svg_111" y="122.36328" x="558.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">Duration</text>
+      </g>
+     </g>
+     <g id="svg_112">
+      <g id="svg_113">
+       <text id="svg_114" y="66.36328" x="622.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">int</text>
+      </g>
+      <g id="svg_115">
+       <text id="svg_116" y="80.36328" x="622.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">nchar(30)</text>
+      </g>
+      <g id="svg_117">
+       <text id="svg_118" y="94.36328" x="622.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">nvarchar(100)</text>
+      </g>
+      <g id="svg_119">
+       <text id="svg_120" y="108.36328" x="622.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">datetime2</text>
+      </g>
+      <g id="svg_121">
+       <text id="svg_122" y="122.36328" x="622.5" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">time</text>
+      </g>
+     </g>
+     <g id="svg_123">
+      <g id="svg_124">
+       <text id="svg_125" y="66.36328" x="701.25" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black">PK</text>
+      </g>
+      <g id="svg_126">
+       <text id="svg_127" y="80.36328" x="701.25" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black"/>
+      </g>
+      <g id="svg_128">
+       <text id="svg_129" y="94.36328" x="701.25" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black"/>
+      </g>
+      <g id="svg_130">
+       <text id="svg_131" y="108.36328" x="701.25" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black"/>
+      </g>
+      <g id="svg_132">
+       <text id="svg_133" y="122.36328" x="701.25" font-weight="400" font-size="12" font-family="arial, sans-serif" fill="black"/>
+      </g>
+     </g>
+    </g>
+    <polyline id="svg_134" stroke="#000000" points="553.5,52.5 553.5,32.5 720.5,32.5 720.5,52.5 553.5,52.5 553.5,134.5 720.5,134.5 720.5,52.5 " fill="none"/>
+   </g>
+   <g id="svg_2">
+    <svg id="svg_135" y="160.5" x="564.5" width="166" height="40">
+     <g id="svg_4">
+      <svg y="0px" xml:space="preserve" x="0px" viewBox="0 0 487.7 116.5" version="1" id="svg_3" enable-background="new 0 0 487.7 116.5" xmlns:xlink="http://www.w3.org/1999/xlink">
+       <g id="svg_136">
+        <path id="svg_137" fill="#222323" d="m146.3,28.6c2.2,-0.3 4.5,-0.5 6.7,-0.5c1.9,0 4,0.2 6.1,0.5l3.8,47l20.6,-47c2,-0.3 4.1,-0.5 6.3,-0.5c2.2,0 4.3,0.2 6.4,0.5l-28.4,59.8c-2.5,0.3 -4.9,0.5 -7.3,0.5c-1.1,0 -2.2,0 -3.2,-0.1c-1.1,-0.1 -2.2,-0.2 -3.5,-0.4l-7.5,-59.8z"/>
+        <path id="svg_138" fill="#222323" d="m198.6,72.1c0.3,2.7 1.2,4.6 2.7,5.9c1.4,1.3 3.5,2 6.3,2c2.2,0 4.2,-0.2 5.9,-0.7c1.7,-0.5 3.5,-1.1 5.4,-1.9c0.9,1.1 1.5,2.5 1.8,4c0.3,1.6 0.5,3.3 0.5,5c-0.9,0.4 -2,0.8 -3.3,1.2c-1.2,0.4 -2.5,0.7 -3.9,0.9c-1.3,0.2 -2.7,0.4 -4,0.6c-1.3,0.1 -2.5,0.2 -3.6,0.2c-3.4,0 -6.3,-0.4 -8.7,-1.2c-2.4,-0.8 -4.4,-2 -6,-3.5c-1.6,-1.5 -2.7,-3.4 -3.5,-5.6c-0.7,-2.2 -1.1,-4.6 -1.1,-7.3c0,-3.4 0.6,-6.7 1.7,-10c1.2,-3.3 2.8,-6.2 5,-8.8c2.1,-2.6 4.7,-4.7 7.8,-6.2c3.1,-1.6 6.5,-2.4 10.4,-2.4c1.8,0 3.5,0.2 5.1,0.7c1.6,0.4 3,1.1 4.1,2c1.2,0.9 2.1,2 2.7,3.4c0.7,1.3 1,2.9 1,4.7c0,2.5 -0.6,4.7 -1.7,6.5c-1.2,1.8 -2.7,3.4 -4.7,4.7c-1.9,1.3 -4.1,2.3 -6.6,3.1c-2.5,0.8 -5,1.4 -7.7,1.8l-5.6,0.9zm4.7,-8.5c2.1,-0.3 3.8,-0.8 5.2,-1.3c1.3,-0.5 2.4,-1.1 3.2,-1.7c0.8,-0.6 1.3,-1.3 1.6,-2c0.3,-0.7 0.4,-1.3 0.4,-2c0,-1.1 -0.3,-1.9 -1,-2.6c-0.7,-0.7 -1.6,-1 -2.8,-1c-1.4,0 -2.8,0.3 -4,1c-1.2,0.6 -2.2,1.5 -3.1,2.5c-0.9,1.1 -1.7,2.3 -2.3,3.6c-0.6,1.4 -1.1,2.7 -1.5,4.1l4.3,-0.6z"/>
+        <path id="svg_139" fill="#222323" d="m231.5,63.9c0.6,-3.5 1.1,-6.6 1.4,-9.3c0.3,-2.7 0.5,-4.8 0.5,-6.3c0,-0.6 0,-1.1 0,-1.5s0,-0.9 -0.1,-1.4c1.8,-0.3 3.7,-0.5 5.5,-0.5c0.8,0 1.7,0 2.5,0.1c0.8,0.1 1.7,0.2 2.7,0.4c0.1,0.4 0.2,1 0.3,1.6c0.1,0.6 0.2,1.5 0.2,2.7c0,0.5 0,1 0,1.5c0,0.5 -0.1,1.1 -0.2,1.8c0.6,-1 1.2,-2 2.1,-3c0.8,-1 1.8,-1.8 2.8,-2.6c1,-0.8 2.2,-1.4 3.4,-1.9c1.2,-0.5 2.6,-0.7 4.1,-0.7c1.2,0 2.2,0.1 3,0.4c0.1,0.2 0.1,0.4 0.1,0.7c0,0.2 0,0.5 0,0.7c0,1.6 -0.2,3.2 -0.6,4.8c-0.4,1.7 -0.9,3.1 -1.6,4.2c-0.3,-0.1 -0.7,-0.1 -1.1,-0.2c-0.4,-0.1 -0.9,-0.1 -1.5,-0.1c-2.3,0 -4.1,0.4 -5.6,1.2c-1.5,0.8 -2.7,1.9 -3.6,3.3c-0.9,1.4 -1.7,3.1 -2.2,5.1c-0.6,2 -1.1,4.2 -1.5,6.7l-3.1,16.7c-2.2,0.3 -4.2,0.5 -6.1,0.5c-1.9,0 -3.9,-0.2 -5.7,-0.5l4.3,-24.4z"/>
+        <path id="svg_140" fill="#222323" d="m269.7,54.4l-6.4,0c0,-1.5 0.1,-3 0.3,-4.4c0.2,-1.4 0.6,-3 1.2,-4.6l6.4,0l0.5,-2.5c0.3,-1.4 0.4,-2.7 0.5,-4c0.1,-1.2 0.1,-2.3 0.1,-3.1c1.4,-0.9 3.2,-1.6 5.4,-2c2.2,-0.4 4.2,-0.6 6,-0.6c0.3,0.8 0.4,1.9 0.4,3.2c0,0.9 -0.1,1.8 -0.2,2.9c-0.1,1 -0.3,2.2 -0.5,3.4l-0.5,2.7l10.3,0c0,1.7 -0.1,3.2 -0.4,4.6c-0.3,1.4 -0.7,2.9 -1.2,4.4l-10.3,0l-2.9,16.4c-0.1,0.8 -0.2,1.5 -0.3,2.2c-0.1,0.7 -0.1,1.3 -0.1,1.9c0,1.4 0.3,2.6 1,3.4c0.7,0.8 1.9,1.2 3.7,1.2c0.9,0 1.8,-0.1 2.5,-0.2c0.7,-0.1 1.4,-0.3 2,-0.5c0.7,1.6 1.1,3.7 1.1,6.3c0,0.4 0,0.9 0,1.3c0,0.4 0,0.9 -0.1,1.3c-2.4,0.7 -5.2,1.1 -8.6,1.1c-4.7,0 -8.1,-0.9 -10.4,-2.6c-2.2,-1.7 -3.4,-4.6 -3.4,-8.7c0,-0.8 0.1,-1.7 0.2,-2.6c0.1,-0.9 0.2,-1.9 0.4,-2.9l3.3,-17.6z"/>
+        <path id="svg_141" fill="#222323" d="m331.9,69.8c-0.6,3.5 -1.1,6.6 -1.3,9.3c-0.3,2.7 -0.4,4.8 -0.4,6.3c0,0.6 0,1.1 0,1.5s0,0.9 0.1,1.4c-1.8,0.3 -3.6,0.5 -5.4,0.5c-1.6,0 -3.3,-0.2 -5.2,-0.5c-0.1,-0.4 -0.2,-1 -0.3,-1.6c-0.1,-0.6 -0.2,-1.5 -0.2,-2.7c0,-0.5 0,-1 0,-1.6c0,-0.6 0.1,-1.2 0.2,-1.9c-1.6,2.6 -3.7,4.7 -6.2,6.4c-2.5,1.7 -5.4,2.6 -8.7,2.6c-3.7,0 -6.4,-1.2 -8.2,-3.5c-1.8,-2.3 -2.7,-5.4 -2.7,-9.2c0,-4.2 0.6,-8.2 1.9,-12.1c1.2,-3.9 3.1,-7.3 5.6,-10.3c2.5,-3 5.5,-5.4 9.2,-7.2c3.7,-1.8 7.9,-2.7 12.8,-2.7c2.4,0 4.7,0.2 6.8,0.5c2.1,0.3 4.2,0.8 6.2,1.4l-4.2,23.4zm-8.6,-15.5c-0.5,-0.1 -1,-0.2 -1.5,-0.2c-0.5,0 -0.9,0 -1.4,0c-2.7,0 -4.9,0.7 -6.8,2c-1.9,1.3 -3.4,3 -4.6,5c-1.2,2 -2.1,4.1 -2.7,6.4c-0.6,2.3 -0.8,4.4 -0.8,6.3c0,4.1 1.4,6.2 4.1,6.2c2.7,0 5.1,-1.6 7.4,-4.9c2.3,-3.2 3.9,-7.8 5,-13.7l1.3,-7.1z"/>
+        <path id="svg_142" fill="#222323" d="m344.9,43.7c1,-5.8 1.5,-10.2 1.5,-13.2c0,-0.6 0,-1.1 0,-1.5c0,-0.4 -0.1,-0.9 -0.1,-1.4c0.9,-0.2 2,-0.3 3.2,-0.4c1.2,-0.1 2.3,-0.1 3.2,-0.1c1.6,0 3.4,0.2 5.3,0.5c0.3,0.8 0.4,1.9 0.4,3.2c0,2.4 -0.3,5.4 -1,8.9l-2.1,11.6c0.7,-0.8 1.4,-1.7 2.2,-2.5c0.8,-0.8 1.7,-1.5 2.8,-2.2c1.1,-0.7 2.3,-1.2 3.7,-1.6c1.4,-0.4 3,-0.6 4.8,-0.6c3.9,0 6.9,1.3 8.9,4c2.1,2.7 3.1,6.5 3.1,11.6c0,3.4 -0.5,6.9 -1.5,10.4c-1,3.5 -2.7,6.7 -5,9.5c-2.4,2.8 -5.5,5.1 -9.4,6.9c-3.9,1.8 -8.7,2.7 -14.4,2.7c-2.6,0 -5,-0.2 -7.2,-0.7c-2.2,-0.4 -4.2,-1.1 -6.2,-1.8l7.8,-43.3zm5.5,35.4c0.4,0.2 1,0.3 1.7,0.4c0.7,0.1 1.4,0.1 2.1,0.1c2.4,0 4.5,-0.6 6.3,-1.7c1.7,-1.1 3.2,-2.6 4.3,-4.3c1.1,-1.7 2,-3.7 2.5,-5.8c0.5,-2.1 0.8,-4.2 0.8,-6.2c0,-1.9 -0.4,-3.6 -1.2,-5c-0.8,-1.4 -2.2,-2.1 -4.1,-2.1c-2.6,0 -4.7,1.1 -6.6,3.2c-1.8,2.2 -3.2,5.7 -4,10.7l-1.8,10.7z"/>
+        <path id="svg_143" fill="#222323" d="m395.7,72.1c0.3,2.7 1.2,4.6 2.7,5.9c1.4,1.3 3.5,2 6.3,2c2.2,0 4.2,-0.2 5.9,-0.7c1.7,-0.5 3.5,-1.1 5.4,-1.9c0.9,1.1 1.5,2.5 1.8,4c0.3,1.6 0.5,3.3 0.5,5c-0.9,0.4 -2,0.8 -3.3,1.2c-1.2,0.4 -2.5,0.7 -3.9,0.9c-1.3,0.2 -2.7,0.4 -4,0.6c-1.3,0.1 -2.5,0.2 -3.6,0.2c-3.4,0 -6.3,-0.4 -8.7,-1.2c-2.4,-0.8 -4.4,-2 -6,-3.5c-1.6,-1.5 -2.7,-3.4 -3.5,-5.6c-0.7,-2.2 -1.1,-4.6 -1.1,-7.3c0,-3.4 0.6,-6.7 1.7,-10c1.2,-3.3 2.8,-6.2 5,-8.8c2.1,-2.6 4.7,-4.7 7.8,-6.2c3.1,-1.6 6.5,-2.4 10.4,-2.4c1.8,0 3.5,0.2 5.1,0.7c1.6,0.4 3,1.1 4.1,2c1.2,0.9 2.1,2 2.7,3.4c0.7,1.3 1,2.9 1,4.7c0,2.5 -0.6,4.7 -1.7,6.5c-1.2,1.8 -2.7,3.4 -4.7,4.7c-1.9,1.3 -4.1,2.3 -6.6,3.1c-2.5,0.8 -5,1.4 -7.7,1.8l-5.6,0.9zm4.8,-8.5c2.1,-0.3 3.8,-0.8 5.2,-1.3c1.3,-0.5 2.4,-1.1 3.2,-1.7c0.8,-0.6 1.3,-1.3 1.6,-2c0.3,-0.7 0.4,-1.3 0.4,-2c0,-1.1 -0.3,-1.9 -1,-2.6c-0.7,-0.7 -1.6,-1 -2.8,-1c-1.4,0 -2.8,0.3 -4,1c-1.2,0.6 -2.2,1.5 -3.1,2.5c-0.9,1.1 -1.7,2.3 -2.3,3.6c-0.6,1.4 -1.1,2.7 -1.5,4.1l4.3,-0.6z"/>
+        <path id="svg_144" fill="#222323" d="m430.8,43.7c0.6,-2.9 1,-5.5 1.3,-7.7c0.2,-2.2 0.4,-4 0.4,-5.5c0,-0.6 0,-1.1 0,-1.5c0,-0.4 -0.1,-0.9 -0.1,-1.4c0.9,-0.2 2,-0.3 3.2,-0.4c1.2,-0.1 2.3,-0.1 3.2,-0.1c1.6,0 3.4,0.2 5.3,0.5c0.3,0.8 0.4,1.9 0.4,3.2c0,1.2 -0.1,2.5 -0.3,4c-0.2,1.5 -0.5,3.1 -0.8,4.9l-6.4,33.5c-0.2,0.9 -0.2,1.7 -0.2,2.3c0,0.9 0.1,1.6 0.4,2.1s0.6,0.9 1,1.2c0.4,0.3 0.8,0.5 1.3,0.5c0.5,0.1 1,0.1 1.5,0.1c0.2,0 0.6,0 1.2,-0.1c0.6,-0.1 1.2,-0.2 1.7,-0.4c0.3,0.9 0.5,2 0.7,3.1c0.2,1.1 0.3,2.2 0.3,3.4c0,0.4 0,0.9 0,1.2c0,0.4 -0.1,0.8 -0.1,1.2c-0.8,0.3 -1.9,0.6 -3.2,0.8c-1.3,0.2 -2.8,0.3 -4.4,0.3c-3.8,0 -6.7,-0.9 -8.9,-2.8c-2.2,-1.9 -3.2,-4.8 -3.2,-8.8c0,-0.8 0.1,-1.6 0.2,-2.5c0.1,-0.9 0.2,-1.8 0.4,-2.7l5.1,-28.4z"/>
+        <path id="svg_145" fill="#222323" d="m463.5,89.4c-5.7,0 -9.9,-1.5 -12.6,-4.5c-2.7,-3 -4,-7.1 -4,-12.3c0,-3.3 0.5,-6.7 1.5,-10c1,-3.4 2.5,-6.4 4.5,-9.1c2,-2.7 4.5,-4.9 7.5,-6.6c3,-1.7 6.6,-2.5 10.6,-2.5c5.8,0 10,1.5 12.7,4.6c2.7,3.1 4,7.2 4,12.4c0,3.4 -0.5,6.8 -1.5,10.2c-1,3.3 -2.5,6.3 -4.5,9c-2,2.7 -4.5,4.8 -7.6,6.4c-2.9,1.6 -6.5,2.4 -10.6,2.4zm1.1,-9c2.1,0 3.9,-0.7 5.3,-2c1.4,-1.3 2.6,-3 3.5,-5c0.9,-2 1.6,-4 2,-6.2c0.4,-2.2 0.6,-4.2 0.6,-5.9c0,-5.1 -2.1,-7.7 -6.2,-7.7c-2.1,0 -3.9,0.7 -5.2,2.1c-1.4,1.4 -2.5,3.1 -3.4,5.1c-0.9,2 -1.5,4.1 -1.9,6.3c-0.4,2.2 -0.5,4.2 -0.5,5.9c-0.1,4.9 1.9,7.4 5.8,7.4z"/>
+       </g>
+       <g id="svg_146">
+        <polygon id="svg_147" points="16.6,38.9 31,61.4 31,61.4 47.1,42.1 32.1,20.3  " fill="#D15197"/>
+        <path id="svg_148" fill="#D15197" d="m12.6,32.7c0.9,-1.1 8.4,-10.1 15.4,-18.3l-10,-14.4l-7.2,0l-10.8,13l12.6,19.7z"/>
+        <path id="svg_149" fill="#D15197" d="m34.9,67.5l16,25c0.9,-1.1 7.8,-9.3 17,-20.3l-16.7,-24.2l-16.3,19.5z"/>
+        <polygon id="svg_150" points="72.1,78.1 54.9,98.7 54.9,98.6 66.4,116.5 81.9,92.2  " fill="#D15197"/>
+        <path id="svg_151" fill="#5D2F87" d="m69.5,26.1l-18.2,21.9l0,0l16.7,24.2c0,0 0,0 0,0c5.5,-6.6 11.9,-14.2 18.3,-21.9l-16.8,-24.2z"/>
+        <polygon id="svg_152" points="90.4,56.2 72.1,78.1 72.1,78.1 81.9,92.2 81.9,92.2 97.9,67.1  " fill="#5D2F87"/>
+        <polygon id="svg_153" points="51.4,0 49,0 32.1,20.3 32.1,20.3 47.1,42.1 47.2,42 65.4,20.2  " fill="#5D2F87"/>
+        <path id="svg_154" fill="#5D2F87" d="m18.1,0l0,0l9.9,14.4c0,0 0,0 0,-0.1c6.2,-7.4 12,-14.3 12,-14.3l-21.9,0z"/>
+        <polygon id="svg_155" points="51.5,0 51.4,0 65.4,20.2 65.4,20.2 82.3,0  " fill="#25B6EA"/>
+        <path id="svg_156" fill="#25B6EA" d="m88.5,3.4l-19,22.7l0,0l16.7,24.1c0,0 0,0 0,0c6.5,-7.8 13.1,-15.7 19,-22.7l-16.7,-24.1z"/>
+        <polygon id="svg_157" points="109.4,33.4 90.4,56.2 90.4,56.2 97.9,67.1 97.9,67.1 114.6,41  " fill="#25B6EA"/>
+        <path id="svg_158" fill="#93C149" d="m121.8,0l-30.5,0l-2.7,3.3l-0.1,0.1l16.8,24.1c0,0 0.1,-0.1 0.1,-0.1c11.1,-13.4 19.6,-23.5 19.6,-23.5l-3.2,-3.9z"/>
+        <polygon id="svg_159" points="129.5,9.3 109.5,33.3 109.4,33.4 114.6,41 114.7,40.9 132.5,13  " fill="#93C149"/>
+       </g>
+      </svg>
+     </g>
+    </svg>
+   </g>
+  </g>
+ </g>
+</svg>

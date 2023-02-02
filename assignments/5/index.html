@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="application/javascript" src="js/validationCommon.js"></script>
+    <script type="application/javascript" src="js/validationForm.js"></script>
+</head>
+
+<body>
+    <h2>New artist</h2>
+    <form class="form" novalidate onsubmit="return validateForm();">
+
+        <label for="name">Name: *</label>
+        <input type="text" name="name" id="name" required placeholder="2-60 characters" />
+        <span id="errorName" class="errors-text"></span>
+
+        <label for="number">Number of members: *</label>
+        <input type="number" name="number" id="number" required placeholder="1-100"/>
+        <span id="errorNumber" class="errors-text"></span>
+
+        <label for="email">Email: *</label>
+        <input type="email" name="email" id="email" required placeholder="example@domen" />
+        <span id="errorEmail" class="errors-text"></span>
+
+        <div class="form-buttons">
+            <p id="errorsSummary" class="errors-text"></p>
+            <input class="form-button-submit" type="submit" value="Submit" />
+        </div>
+
+    </form>
+</body>
+
+</html>

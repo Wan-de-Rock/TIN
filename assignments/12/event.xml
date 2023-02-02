@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<action
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="event.xsd"> 
+
+    <event eventid="1"> <!-- unique -->
+        <name>Coachella</name>
+        <tagline>Welcome to Coachella.</tagline>
+        <date>2023-04-14</date> <!-- date -->
+        <email>coachella@mail.com</email> <!-- RedEx -->
+        <guestsnumber>full</guestsnumber> <!-- union & restriction -->
+    </event>
+    <event eventid="2">
+        <name>Electric Forest</name>
+        <tagline>Happy New Year</tagline>
+        <date>2023-07-22</date>
+        <email>some@mail.com</email>
+        <guestsnumber>100</guestsnumber>
+    </event>
+    <event eventid="3">
+        <name>Rock in Rio</name>
+        <tagline>Voltei. (I'm back).</tagline>
+        <date>1985-01-11</date>
+        <email>rockInRio@mail.com</email>
+        <guestsnumber>120</guestsnumber>
+    </event>
+    <event eventid="4">
+        <name>Lollapalooza</name>
+        <tagline>Good music</tagline>
+        <date>2023-08-03</date>
+        <email>lollapalooza@mail.com</email>
+        <guestsnumber>empty</guestsnumber>
+    </event>
+    <event eventid="5">
+        <name>Tomorrowland</name>
+        <tagline>One world, one heart.</tagline>
+        <date>2023-07-15</date>
+        <email>tomorrowland@mail.com</email>
+        <guestsnumber>full</guestsnumber>
+    </event>
+
+</action>

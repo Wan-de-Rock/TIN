@@ -1,0 +1,57 @@
+html {
+    background-color: #1b1a19;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 255, 106);
+}
+
+header,
+main,
+footer {
+    margin: 1rem;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 255, 106, 0.726);
+    color: #1b1a19;
+}
+
+main{
+    height:100%;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h4 {
+    font-style: italic;
+}
+
+img {
+    
+    display: block;
+    height: 150px;
+}
+
+table,
+th,
+td {
+    color: #b5cce4;
+    border: 1px solid;
+}
+
+ol {
+    color: rgb(255, 115, 0);
+}
+
+a {
+    color: #b5cce4;
+    text-decoration: none;
+}
+
+@media print {
+    nav {display: none;}
+}

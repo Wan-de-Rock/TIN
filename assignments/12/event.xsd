@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="name" type="xs:token" />
+    <xs:element name="tagline" type="xs:string" />
+    <xs:element name="date" type="xs:date" />
+    <xs:element name="email">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[_\-a-zA-Z0-9\.\+]+@[a-zA-Z0-9](\.?[\-a-zA-Z0-9]*[a-zA-Z0-9])*" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="guestsnumber">
+        <xs:simpleType>
+            <xs:union>
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="0" />
+                        <xs:maxInclusive value="120" />
+                    </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="full" />
+                        <xs:enumeration value="empty" />
+                    </xs:restriction>
+                </xs:simpleType>
+
+            </xs:union>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="event">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name" />
+                <xs:element ref="tagline" />
+                <xs:element ref="date" />
+                <xs:element ref="email" />
+                <xs:element ref="guestsnumber" />
+            </xs:sequence>
+            <xs:attribute name="eventid" type="xs:positiveInteger" use="required" />
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="action">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="event" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+
+        <xs:unique name="uniqueEventId">
+            <xs:selector xpath="event" />
+            <xs:field xpath="@eventid" />
+        </xs:unique>
+
+    </xs:element>
+
+</xs:schema>
