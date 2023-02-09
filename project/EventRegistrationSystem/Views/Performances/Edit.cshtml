@@ -4,44 +4,46 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
-
-<h4>Performance</h4>
+<h2>Edit Performance</h2>
 <hr />
+
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
-            <div class="form-group">
+            <div class="form-group py-2">
                 <label asp-for="QueuePosition" class="control-label"></label>
                 <input asp-for="QueuePosition" class="form-control" />
                 <span asp-validation-for="QueuePosition" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group py-2">
                 <label asp-for="TimeOfStart" class="control-label"></label>
                 <input asp-for="TimeOfStart" class="form-control" />
                 <span asp-validation-for="TimeOfStart" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group py-2">
                 <label asp-for="ArtistId" class="control-label"></label>
                 <select asp-for="ArtistId" class="form-control" asp-items="ViewBag.ArtistId"></select>
                 <span asp-validation-for="ArtistId" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group py-2">
                 <label asp-for="EventId" class="control-label"></label>
                 <select asp-for="EventId" class="form-control" asp-items="ViewBag.EventId"></select>
                 <span asp-validation-for="EventId" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+
+            <div class="row py-3">
+                <div class="col">
+                    <input type="submit" value="Save" class="btn btn-primary w-100" />
+                </div>
+                <div class="col">
+                    <a asp-action="Index" class="btn btn-danger w-100">Back to List</a>
+                </div>
             </div>
+
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
