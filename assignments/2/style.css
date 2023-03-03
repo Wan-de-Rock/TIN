@@ -1,7 +1,7 @@
 html {
     background-color: #1b1a19;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(0, 255, 106);
+    color: rgb(140, 213, 170);
 }
 
 header,
@@ -31,7 +31,7 @@ h4 {
 }
 
 img {
-    
+    padding: 30px 30px 20px 10px;
     display: block;
     height: 150px;
 }
