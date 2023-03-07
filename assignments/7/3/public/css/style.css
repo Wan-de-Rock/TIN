@@ -1,0 +1,16 @@
+html {
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    color: #4bd49b;
+}
+
+table,
+th,
+td {
+    color: #5ea3ed;
+    border: 1px solid;
+    text-align: center;
+}
