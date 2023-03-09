@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const artistRouter = require("./routes/artistRouter");
 const homeRouter = require("./routes/homeRouter");
+const jsonParser = express.json();
  
 app.set("view engine", "hbs");
 app.use(express.urlencoded({ extended: false }));

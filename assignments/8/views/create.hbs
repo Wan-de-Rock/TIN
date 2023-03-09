@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adding a new artist</title>
 </head>
+
 <body>
     <h1>Adding a new artist</h1>
-     <form action="postArtist" method="POST">
+    <form action="postArtist" method="post">
         <label>Name</label>
         <input name="name" /><br><br>
         <label>Number of members</label>
         <input name="numberOfMembers" type="number" min="1" max="50" /><br><br>
         <input type="submit" value="Submit" />
-     </form>
-     <a href="/artists">Back to artist list</a>
+    </form>
+    <a href="/artists">Back to artist list</a>
 </body>
+
 </html>

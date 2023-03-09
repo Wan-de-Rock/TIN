@@ -1,3 +1,4 @@
+const fs = require('fs');
 const Artist = require("../models/artist");
 
 exports.addArtist = function (request, response){
@@ -6,6 +7,11 @@ exports.addArtist = function (request, response){
 exports.getArtists = function(request, response){
     response.render("artists.hbs", {
         artists: Artist.getAll()
+    });
+};
+exports.getArtistDetails = function(request, response){
+    response.render("details.hbs", {
+        artist: fs.readFileSync('artistsDB.json')
     });
 };
 

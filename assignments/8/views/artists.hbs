@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artists list</title>
 </head>
+
 <body>
     <a href="/artists/create">Add new artist</a>
-    <h1>Artists list</h1>
-     <table>
-         <tr><th>Name</th><th>Number of members</th></tr>
-         {{#each artists}}
-            <tr><td>{{this.name}}</td><td>{{this.numberOfMembers}}</td></tr>
-         {{/each}}
-     </table>
+    <table style="text-align: center; margin: 30px">
+        <caption><b>Artists list</b></caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Members</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each artists}}
+            <tr>
+                <td>{{this.name}}</td>
+                <td>{{this.numberOfMembers}}</td>
+                <!--
+                    <td><a href="/artists/details">Details</a></td>
+                -->
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
 </body>
+
 </html>
