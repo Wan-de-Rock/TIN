@@ -20,7 +20,7 @@ function validateForm() {
     else if (!checkTextLengthRange(nameInput.value, 2, 60)) {
         valid = false;
         nameInput.classList.add("error-input");
-        errorFirstName.innerText = "The field should contain from 2 to 60 characters"
+        errorName.innerText = "The field should contain from 2 to 60 characters"
     }
 
     if (!checkRequired(numberInput.value)) {
