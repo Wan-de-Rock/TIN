@@ -1,7 +1,7 @@
 const http = require("http");
 const fs = require("fs");
 
-http.createServer((request, response) => {
+http.createServer(async (request, response) => {
 
   if (request.url === "/submit") {
 
@@ -9,7 +9,16 @@ http.createServer((request, response) => {
     request.on("data", chunk => {
       message += chunk;
     });
+    /*
+    const buffers = []; // буфер для получаемых данных
 
+    for await (const chunk of request) {
+      buffers.push(chunk);        // добавляем в буфер все полученные данные
+    }
+    //buffers = buffers.replace("+", " ")
+    const buff = buffers.join(";");
+    console.log(buff);
+    */
     fs.readFile("views/submit.html", "utf8", function (error, data) {
       message = message.split('=')[1];
       data = data.replace("{message}", message);

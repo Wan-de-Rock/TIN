@@ -8,7 +8,7 @@
         <name>Coachella</name>
         <tagline>Welcome to Coachella.</tagline>
         <date>2023-04-14</date> <!-- date -->
-        <email>coachella@mail.com</email> <!-- RedEx -->
+        <email>coachella@mail.com</email> <!-- RegEx -->
         <guestsnumber>full</guestsnumber> <!-- union & restriction -->
     </event>
     <event eventid="2">

@@ -18,26 +18,24 @@ namespace EventRegistrationSystem.Controllers
         // GET: Performances
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Performance.Include(p => p.Artist).Include(p => p.Event);
-            return View(await applicationDbContext.ToListAsync());
+            var performances = _context.Performance.Include(p => p.Artist).Include(p => p.Event);
+            var performancesList = await performances.ToListAsync();
+
+            return View(performancesList);
         }
 
         // GET: Performances/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Performance == null)
-            {
                 return NotFound();
-            }
 
             var performance = await _context.Performance
                 .Include(p => p.Artist)
                 .Include(p => p.Event)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (performance == null)
-            {
                 return NotFound();
-            }
 
             return View(performance);
         }
